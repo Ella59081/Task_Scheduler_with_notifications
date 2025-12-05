@@ -1,0 +1,21 @@
+.settings-page {
+    -fx-background-color: whitesmoke;
+}
+
+.settings-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1e3a8a;
+}
+
+.update-btn, .mode-btn {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8px;
+    -fx-font-weight: bold;
+}
+
+.update-btn:hover, .mode-btn:hover {
+    -fx-background-color: #1e40af;
+}

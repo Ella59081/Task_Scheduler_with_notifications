@@ -1,0 +1,47 @@
+.root {
+    -fx-font-family: "Poppins";
+    -fx-background-color: f8f8f8f9;
+}
+
+.sidebar {
+    -fx-background-color: white;
+    -fx-pref-width: 230px;
+    -fx-padding: 20px 15px;
+}
+
+.nav-btn {
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+    -fx-graphic-text-gap: 10px;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 200px;
+    -fx-alignment: left;
+}
+
+.nav-btn:hover {
+    -fx-background-color: #d1e5f4;
+    -fx-cursor: hand;
+    -fx-width: 200px;
+    -fx-background-radius: 7px;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-pref-width: 400px;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 4);
+}
+
+.card-title {
+    -fx-text-fill: #4b5563;
+    -fx-font-size: 14px;
+}
+
+.card-value {
+    -fx-text-fill: #1e3a8a;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}

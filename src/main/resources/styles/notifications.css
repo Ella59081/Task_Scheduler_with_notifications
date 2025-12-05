@@ -1,0 +1,8 @@
+.notifications-page {
+    -fx-background-color: whitesmoke;
+}
+
+.notifications-table {
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+}

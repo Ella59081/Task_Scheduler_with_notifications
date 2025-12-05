@@ -1,0 +1,43 @@
+/* Modal container */
+.modal-container {
+    -fx-background-color: whitesmoke;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 4);
+}
+
+/* Header style */
+.modal-header {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1976d2; /* light blue accent */
+    -fx-padding: 0 0 10 0;
+}
+
+/* Task field labels */
+.modal-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+.modal-button {
+    -fx-background-color: #1976d2;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+    -fx-padding: 6 12 6 12;
+    -fx-font-weight: bold;
+}
+
+.modal-button:hover {
+    -fx-background-color: #1565c0;
+}
+/* Existing modal-container, header, and modal-button already defined */
+
+/* Add spacing for input fields if desired */
+.text-field {
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-padding: 4 6 4 6;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+}
+

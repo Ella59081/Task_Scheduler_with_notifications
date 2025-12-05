@@ -1,0 +1,15 @@
+.projects-page {
+    -fx-background-color: whitesmoke;
+}
+
+.add-btn {
+    -fx-background-color: #0ea5e9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 16px;
+}
+
+.add-btn:hover {
+    -fx-background-color: #0284c7;
+}

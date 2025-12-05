@@ -1,0 +1,20 @@
+.tasks-page {
+    -fx-background-color: whitesmoke;
+}
+
+.add-btn {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 16px;
+}
+
+.add-btn:hover {
+    -fx-background-color: #1e40af;
+}
+
+.tasks-table {
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+}
